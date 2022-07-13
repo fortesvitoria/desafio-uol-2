@@ -1,0 +1,144 @@
+
+.container {
+    width: 70% !important;
+    padding-left: 10% !important;
+    padding-right: 10% !important;
+    padding-top: 2% !important;
+    padding-bottom: 2%;
+    background: rgb(90, 143, 196);
+    border-radius: 5px;
+    margin-left: 15%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    font-weight: bold;
+ }
+
+
+h1,h2 {
+    font-family: 'Quicksand', sans-serif;
+    text-shadow: 1px 2px 4px #164f70;
+    font-weight: bold;
+}
+
+table{
+	width: 100%;
+    table-layout: fixed;
+
+}
+
+td, th {
+	padding: .7em !important;
+	border: 1px solid #ccc !important;
+	text-align: center !important;
+    font-weight: bold !important; 
+}
+
+th{
+	font-weight: bold !important;
+	background-color: #EEE !important;
+}
+
+
+body {
+    font-family: 'Open Sans', sans-serif !important;
+    background: rgb(223, 222, 222)!important;
+}
+
+.banner {
+    width: 100%;
+}
+
+.campo-medio{
+	display: inline-block ;
+	padding-right: .5em;
+    border: 1px solid rgb(62, 109, 156);
+}
+
+button {
+    font-family: 'Quicksand', sans-serif !important;
+	font-size: 1.2em !important;
+	cursor: pointer;
+    border: 0;
+	background: rgb(202, 215, 230);
+	width: 50%;
+    margin: 10px 0px !important;
+    border-radius: 5px !important;
+    font-weight: bold !important;
+
+}
+
+button:hover {
+    font-family: 'Quicksand', sans-serif;
+    box-shadow: 1px 2px 4px #0c293a;
+	font-size: 1.2em;
+	cursor: pointer;
+	color: #fff;
+	background: rgb(16, 67, 116);
+    margin: 10px 0px;
+    border-radius: 5px;
+    font-weight: bold;
+    text-decoration: none;
+
+}
+
+.link-decoracao {
+    text-decoration: none;
+    color: black;
+}
+
+.link-decoracao:hover{
+    color: #fff;
+}
+
+footer {
+    text-align: center;
+    max-height: 100px;
+    position: relative;
+}
+
+.background-footer {
+    max-height: 150px;
+    width: 100%;
+
+}
+
+.logo-navbar {
+    max-width: 3%;
+}
+
+.navbar-fonte {
+    font-family: 'Quicksand', sans-serif;
+}
+
+.clicar:hover {
+    font-size: larger;
+}
+
+
+.sobre {
+    background-color: rgb(223, 222, 222);
+    padding-left: 2%;
+    padding-top: 2%;;
+    padding-right: 2%;
+    font-family: 'Quicksand', sans-serif;
+    padding-bottom: 3%;
+    padding-top: 1%,
+
+}
+
+.destaque-titulo {
+    padding-top: 3%;
+    font-weight: bold;
+}
+
+.texto-centralizado {
+    text-align: center;
+}
+
+.img-concluido {
+    max-width: 20%;
+}
+
+.git-icon{
+    max-width: 35px;
+}

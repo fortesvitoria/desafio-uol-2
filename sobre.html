@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sobre - Colorjoy - Calculadora de tintas</title>
+    <link rel="icon" href="img/icon.png">
+
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/principal.css">
+    <link rel="stylesheet" href="css/cadastro.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <div class="container-fluid">
+         <img src="img/icon.png" class="logo-navbar" alt="logo"> <a class="navbar-brand navbar-fonte" href="calculadora.html">Colorjoy - Calculadora de tintas</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse  justify-content-end" id="navbarNavAltMarkup">
+            <div class="navbar-nav navbar-fonte">
+              <a class="nav-link active clicar" href="calculadora.html">Calculadora</a>
+              <a class="nav-link active clicar" href="cadastro.html">Cadastro</a>
+              <a class="nav-link active clicar" href="sobre.html">Sobre</a>
+            </div>
+          </div>
+        </div>
+      </nav>    
+    
+<header>
+<img src="img/banner.png" alt="banner-tinta" class="banner">
+</header>
+
+<main>
+    <section class="container">
+            <h1 id="titulo-form">Sobre o desafio II Uol - Compass:</h1>
+            <fieldset class="sobre">
+                <h4 class="destaque-titulo">O que será desenvolvido:</h4>          
+                <article>
+                    <p>Uma aplicação web ou mobile que ajude o usuário a calcular a quantidade de tinta 
+                        necessária para pintar uma sala. Essa aplicação deve considerar que a sala é 
+                        composta de 4 paredes e deve permitir que o usuário escolha qual a medida de cada 
+                        parede e quantas janelas e portas possuem cada parede. Com base na quantidade 
+                        necessária o sistema deve apontar tamanhos de lata de tinta que o usuário deve 
+                        comprar, sempre priorizando as latas maiores. Ex: se o usuário precisa de 19 litros, 
+                        ele deve sugerir 1 lata de 18L + 2 latas de 0,5L.</p>
+                </article>            
+                
+                <h4 class="destaque-titulo">Regras de Negócios:</h4>        
+                <article>
+                    <p>1. Nenhuma parede pode ter menos de 1 metro quadrado nem mais de 50 metros quadrados, mas podem possuir altura e larguras diferentes.</p>
+                    <p>2. O total de área das portas e janelas deve ser no máximo 50% da área da parede.</p>
+                    <p>3. A altura das paredes com porta deve ser, no mínimo, 30 centímetros maior que a altura da porta.</p>
+                    <p> 4 Cada janela possui as medidas: 2,00 x 1,20 metros</p>
+                    <p>5. Cada porta possui as medidas: 0,80 x 1,90 metros </p>
+                    <p>6. Cada litro de tinta é capaz de pintar 5 metros quadrados.</p>
+                    <p>7. Não considerar teto nem piso.</p>
+                    <p>8. As variações de tamanho das latas de tinta são:</p>
+                    <p>o 0,5 L</p>
+                    <p>o 2,5 L</p>
+                    <p>o 3,6 L</p>
+                    <p>o 18 L</p>
+                </article> 
+                
+                <h4 class="destaque-titulo">Requisitos Técnicos:</h4>            
+                <article>
+                   <p> ✓ Utilizar as linguagens repassadas no Plano de Estudos. Dê preferência à criação de seus próprios componentes de interface para criar seu próprio layout, mas caso não seja possível, pode utilizar o Bootstrap.</p>
+                   <p>✓ Estruture bem o código, criando uma estrutura de arquivos, como se fosse um projeto maior. A organização e componentização são extremamente importantes.</p>
+                </article>
+
+                <h4 class="destaque-titulo">Telas que irão compor o projeto:</h4>       
+                <article>
+                    <p>o Página 1:</p>
+                    <p> ▪ Página inicial apresentando a calculadora de quantidade de tinta. Abuse da criatividade, pode incluir banner, carrossel, vídeos, imagens entre outros elementos</p>
+                    <p>▪ Inclusão de um direcionador (botão, banner, campos de texto, ...) para a página seguinte que irá realizar o cálculo</p><br>
+                    <p>o Página 2:</p>
+                    <p>▪ Página onde estarão os campos utilizados na calculadora de tinta e os resultados.</p> <br>
+                    <p>o Página 3:</p> 
+                    <p>▪ Aqui você irá utilizar o que foi aprendido sobre criação de Formulários. Este formulário será de livre escolha, não é necessário uso de API, apenas as regras de Regex ensinadas nos vídeos.</p>
+                </article>
+
+                <h5 class="destaque-titulo">Projeto desenvolvido por Vitória Fortes <a href="https://github.com/fortesvitoria"><img src="img/github.png" alt="github-link" class="git-icon"></a></h5>
+            </fieldset>
+    </section>
+</main>
+
+    
+        <footer>
+            <div class="footer-position">
+                <img src="img/background-footer.png" class="background-footer" alt="logo-background">
+            </div>     
+        </footer>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+</body>
+    
+</html>
