@@ -142,3 +142,6 @@ footer {
 .git-icon{
     max-width: 35px;
 }
+.git-icon:hover{
+    max-width: 40px;
+}

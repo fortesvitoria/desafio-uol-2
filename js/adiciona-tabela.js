@@ -1,6 +1,5 @@
 let somaAreaTotal = 0
 
-
 var botaoAdiciona = document.querySelector("#adiciona-parede");
 botaoAdiciona.addEventListener("click", function(event) {
     event.preventDefault();

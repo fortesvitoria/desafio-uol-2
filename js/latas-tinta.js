@@ -1,33 +1,39 @@
+const total = parseFloat(sessionStorage.getItem("total"));
+document.getElementById("total").innerHTML = total;
+
 var litrosTinta = total/5;
 
-document.getElementById("litros").innerHTML = parseFloat(litrosTinta.toFixed(2));
+document.getElementById("litros").innerHTML = litrosTinta;
 
 // adicionando indicações de tintas - funcao dentro de funcao
-document.getElementById("latas").innerHTML = parseFloat(latasTinta);
 
-    var lata05 = 05;
-    var lata25 = 25;
-    var lata36 = 36;
-    var lata18  = 18;
+var lata05 = 0;
+    var lata25 = 0;
+    var lata36 = 0;
+    var lata18 = 0;
 
-    var latasTinta = litrosTinta;
+    var tintaFaltante = litrosTinta;
 
-while(litrosTinta > 0){
-    if (litrosTinta >= 18) {
+while(tintaFaltante > 0){
+    if (tintaFaltante >= 18) {
         lata18++
-        litrosTinta = litrosTinta - 18
-    } else if (litrosTinta >= 3.6){
+        tintaFaltante = tintaFaltante - 18
+    } else if (tintaFaltante >= 3.6){
         lata36++
-        litrosTinta = litrosTinta - 3.6
-    } else if (litrosTinta >= 2.5){
+        tintaFaltante = tintaFaltante - 3.6
+    } else if (tintaFaltante >= 2.5){
         lata25++
-        litrosTinta = litrosTinta - 2.5
-    } else if (litrosTinta >= 0.5) {
+        tintaFaltante = tintaFaltante - 2.5
+    } else if (tintaFaltante >= 0.5) {
         lata05++
-        litrosTinta = litrosTinta - 0.5
-    } else if (litrosTinta > 0) {
+        tintaFaltante = tintaFaltante - 0.5
+    } else if (tintaFaltante > 0) {
         lata05++
-        litrosTinta = 0
+        tintaFaltante = 0
     }
 }
 
+tintaFaltante = document.getElementById("latas18").innerHTML = "Latas de 18L: " + lata18;
+tintaFaltante = document.getElementById("latas36").innerHTML = "Latas de 3.6L: " + lata36;
+tintaFaltante = document.getElementById("latas25").innerHTML = "Latas de 2.5L: " + lata25;
+tintaFaltante = document.getElementById("latas05").innerHTML = "Latas de 0.5L: " + lata05;
