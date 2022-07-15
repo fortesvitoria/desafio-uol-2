@@ -58,7 +58,7 @@ for (var i = 0; i < paredes.length; i++) {
 }
 
 function validarAltura(altura) {
-    if (altura > 2.10) {
+    if (altura > 2.09) {
         return true;
     } else {
         return false;
