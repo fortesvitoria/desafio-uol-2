@@ -23,7 +23,7 @@ const tiposDeErro = [
 
 const mensagensDeErro = {
 
-    nomeESobrenome: {
+    nome: {
         valueMissing: 'O campo não pode estar vazio'
 
     },
