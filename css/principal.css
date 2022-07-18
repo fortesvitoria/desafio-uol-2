@@ -59,26 +59,25 @@ button {
     font-family: 'Quicksand', sans-serif !important;
 	font-size: 1.2em !important;
 	cursor: pointer;
-    border: 0;
-	background: rgb(202, 215, 230);
-
+    border: rgb(202, 215, 230)!important;
+	background: rgb(202, 215, 230) !important;
     margin: 10px 0px !important;
-    border-radius: 5px !important;
-    font-weight: bold !important;
+    color: black!important;
+    font-weight: bold!important;
+    box-shadow: 1px 2px 4px #0c293a!important;
 
 }
 
 button:hover {
     font-family: 'Quicksand', sans-serif;
-    box-shadow: 1px 2px 4px #0c293a;
+    box-shadow: 1px 2px 4px #0c293a!important;
 	font-size: 1.2em;
 	cursor: pointer;
-	color: #fff;
-	background: rgb(16, 67, 116);
+	color: #fff!important;
+	background: rgb(16, 67, 116)!important;
     margin: 10px 0px;
-    border-radius: 5px;
-    font-weight: bold;
     text-decoration: none;
+    border: #0c293a !important;
 
 }
 
@@ -88,7 +87,7 @@ button:hover {
 }
 
 .link-decoracao:hover{
-    color: #fff;
+    color: #fff!important;
 }
 
 footer {
