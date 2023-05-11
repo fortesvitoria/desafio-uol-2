@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Red+Hat+Display:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Work+Sans:wght@300;400;500;600;700&display=swap');
 
-.container {
+/* .container {
     width: 70% !important;
     padding-left: 10% !important;
     padding-right: 10% !important;
@@ -12,14 +12,8 @@
     margin-top: 1%;
     margin-bottom: 1%;
     font-weight: bold;
- }
+ } */
 
-
-h1,h2 {
-    font-family: 'Red Hat Display', sans-serif;
-    text-shadow: 1px 2px 4px #164f70;
-    font-weight: bold;
-}
 
 table{
 	width: 100%;
@@ -40,57 +34,6 @@ th{
 	background-color: #EEE !important;
 }
 
-
-body {
-    font-family: 'Open Sans', sans-serif !important;
-    background: rgb(223, 222, 222)!important;
-}
-
-.banner {
-    width: 100%;
-}
-
-.campo-medio{
-	display: inline-block ;
-	padding-right: .5em;
-    border: 1px solid rgb(62, 109, 156);
-}
-
-button {
-    font-family: 'Red Hat Display', sans-serif !important;
-	font-size: 1.2em !important;
-	cursor: pointer;
-    border: rgb(202, 215, 230)!important;
-	background: rgb(202, 215, 230) !important;
-    margin: 10px 0px !important;
-    color: black!important;
-    font-weight: bold!important;
-    box-shadow: 1px 2px 4px #0c293a!important;
-
-}
-
-button:hover {
-    font-family: 'Quicksand', sans-serif;
-    box-shadow: 1px 2px 4px #0c293a!important;
-	font-size: 1.2em;
-	cursor: pointer;
-	color: #fff!important;
-	background: rgb(16, 67, 116)!important;
-    margin: 10px 0px;
-    text-decoration: none;
-    border: #0c293a !important;
-
-}
-
-.link-decoracao {
-    text-decoration: none;
-    color: black;
-}
-
-.link-decoracao:hover{
-    color: #fff!important;
-}
-
 footer {
     text-align: center;
     max-height: 100px;
@@ -101,18 +44,6 @@ footer {
     max-height: 150px;
     width: 100%;
 
-}
-
-.logo-navbar {
-    max-width: 12%;
-}
-
-.navbar-fonte {
-    font-family: 'Red Hat Display', sans-serif;;
-}
-
-.clicar:hover {
-    font-size: larger;
 }
 
 

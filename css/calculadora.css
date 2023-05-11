@@ -1,16 +1,39 @@
+ .container-calculadora {
+    background-color: var(--offwhite);
+    max-width: 80vw !important;
+    /* margin: 2em 0 2em 0; */
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+ }
+
+ .form-calcula {
+    padding: 0 0.75em 2em 0.75em;
+ }
+
+ .formulario-calculadora {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+ }
+
  label {
     font-weight: bold;
  }
 
  form {
-    padding: 2% 2% 2% ;
+    padding: 2% 2% 2%;
  }
 
  input {
-    margin: 2% ;
-    width: 100%;
+    margin: 1em;
     padding: 1%;
+    border-radius: 10em;
+    width: 250px;
+    border: 2px solid var(--laranja);
  }
+
 
  .input-invalido {
     border: 1px solid rgb(190, 24, 24);
@@ -19,8 +42,8 @@
  }
 
  #mensagens-erro {
-   color: rgb(190, 24, 24);
-   background-color: rgb(243, 155, 155);
-   font-weight: bold;
-   text-align: center;
+    color: rgb(190, 24, 24);
+    background-color: rgb(243, 155, 155);
+    font-weight: bold;
+    text-align: center;
  }

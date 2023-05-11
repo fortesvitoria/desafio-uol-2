@@ -1,8 +1,9 @@
 /* Importanto estilos */
 /* @import url(css/principal.css);
-@import url(css/calculadora.css);
 @import url(css/cadastro.css);*/
+@import url(css/calculadora.css);
 @import url(css/cabecalho.css); 
+@import url(css/principal.css);
 
 /* Importando fontes google  */
 @import url('https://fonts.googleapis.com/css2?family=Wix+Madefor+Display:wght@400;500;600;700;800&display=swap');
@@ -17,16 +18,37 @@
     --turqueza-hover: #035c5c;
     --amarelo: #FF9D1E;
     --rose: #FFCAB8;
-    --offwhite: #FDE3D9;
+    --offwhite: #fdf8f7;
     --preto: #000000;
     --grafite: #1B1A17;
-
-
-
 }
 
 body {
     font-family: var(--fonte);
     font-size: 16px;
     font-weight: 500;
+    background-image: linear-gradient(to left, var(--turqueza) 10%, var(--turqueza-hover) 100%);
+}
+
+.titulos {
+    font-size: 22px;
+    font-weight: 500;    
+    padding-top: 0.75em;
+}
+
+a {
+    text-decoration: none;
+    color: var(--offwhite);
+}
+
+.botao {
+    color: var(--offwhite);
+    background-color: var(--laranja);
+    border-radius: 10em;
+    margin: 0.5em 0.5em 0 0.5em ;
+}
+
+.botao:hover {
+    color: var(--offwhite);
+    background-color: var(--laranja-escuro);
 }
