@@ -1,27 +1,27 @@
 const total = parseFloat(sessionStorage.getItem("total"));
 document.getElementById("total").innerHTML = total.toFixed(2);
 
-var litrosTinta = total/5;
+var litrosTinta = total / 5;
 
 document.getElementById("litros").innerHTML = litrosTinta.toFixed(2);
 
 // adicionando indicações de tintas - funcao dentro de funcao
 
 var lata05 = 0;
-    var lata25 = 0;
-    var lata36 = 0;
-    var lata18 = 0;
+var lata25 = 0;
+var lata36 = 0;
+var lata18 = 0;
 
-    var tintaFaltante = litrosTinta;
+var tintaFaltante = litrosTinta;
 
-while(tintaFaltante > 0){
+while (tintaFaltante > 0) {
     if (tintaFaltante >= 18) {
         lata18++
         tintaFaltante = tintaFaltante - 18
-    } else if (tintaFaltante >= 3.6){
+    } else if (tintaFaltante >= 3.6) {
         lata36++
         tintaFaltante = tintaFaltante - 3.6
-    } else if (tintaFaltante >= 2.5){
+    } else if (tintaFaltante >= 2.5) {
         lata25++
         tintaFaltante = tintaFaltante - 2.5
     } else if (tintaFaltante >= 0.5) {
