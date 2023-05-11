@@ -71,3 +71,7 @@ label {
     width: 250px;
     border: 2px solid var(--laranja);
  }
+
+ .navbar-toggler {
+    background-color: #FC5000;
+ }
