@@ -16,7 +16,7 @@
 
 
 h1,h2 {
-    font-family: 'Red Hat Display', sans-serif;;
+    font-family: 'Red Hat Display', sans-serif;
     text-shadow: 1px 2px 4px #164f70;
     font-weight: bold;
 }
@@ -57,7 +57,7 @@ body {
 }
 
 button {
-    font-family: 'Quicksand', sans-serif !important;
+    font-family: 'Red Hat Display', sans-serif !important;
 	font-size: 1.2em !important;
 	cursor: pointer;
     border: rgb(202, 215, 230)!important;
@@ -108,7 +108,7 @@ footer {
 }
 
 .navbar-fonte {
-    font-family: 'Quicksand', sans-serif;
+    font-family: 'Red Hat Display', sans-serif;;
 }
 
 .clicar:hover {
