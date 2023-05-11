@@ -1,11 +1,11 @@
 /* Importanto estilos */
-/* @import url(css/principal.css);
-@import url(css/cadastro.css);*/
+/* @import url(css/principal.css); */
 @import url(css/calculadora.css);
 @import url(css/cabecalho.css); 
 @import url(css/principal.css);
 @import url(css/tabela.css);
 @import url(css/footer.css);
+@import url(css/cadastro.css);
 
 /* Importando fontes google  */
 @import url('https://fonts.googleapis.com/css2?family=Wix+Madefor+Display:wght@400;500;600;700;800&display=swap');
@@ -36,7 +36,6 @@ body {
 .titulos {
     font-size: 22px;
     font-weight: 500;
-    
     padding-top: 0.75em;
 }
 
@@ -56,3 +55,19 @@ a {
     color: var(--offwhite);
     background-color: var(--laranja-escuro);
 }
+
+label {
+    font-weight: bold;
+ }
+
+ form {
+    padding: 2% 2% 2%;
+ }
+
+ input {
+    margin: 1em;
+    padding: 1%;
+    border-radius: 10em;
+    width: 250px;
+    border: 2px solid var(--laranja);
+ }

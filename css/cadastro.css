@@ -1,22 +1,25 @@
+.container-cadastro {
+    background-color: var(--offwhite-fluido);
+    max-width: 45vw !important;
+    border-radius: 1em;
+    /* margin: auto; */
+}
+
+.formulario-cadastro {
+    display: grid;
+    grid-template-columns: 60% 60%
+}
 
 
- legend {
-    font-family: 'Quicksand', sans-serif;
-    padding-bottom: 3%;
-    padding-top: 3%;
-    font-weight: bold;
- }
+.input-titulo {
+    display: grid;
+    grid-template-columns: 20%;
+}
 
-
- form {
-    padding: 2% 2% 2%;
- }
-
- .input {
-    margin: 1%;
-    width: 100%;
-    padding: 1%;
- }
+.botao-cadastro {
+    text-align: center;
+    padding-bottom: 2em;
+}
 
 .input-container--invalido {
     margin-bottom: 0.5rem;
@@ -44,3 +47,26 @@
     font-size: small;
     font-weight: bold;
 }
+
+/* 
+
+ legend {
+    font-family: 'Quicksand', sans-serif;
+    padding-bottom: 3%;
+    padding-top: 3%;
+    font-weight: bold;
+ }
+
+
+ form {
+    padding: 2% 2% 2%;
+ }
+
+ .input {
+    margin: 1%;
+    width: 100%;
+    padding: 1%;
+ }
+
+
+} */
