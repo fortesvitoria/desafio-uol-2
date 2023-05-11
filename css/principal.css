@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Red+Hat+Display:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Work+Sans:wght@300;400;500;600;700&display=swap');
 
 .container {
     width: 70% !important;
@@ -15,7 +16,7 @@
 
 
 h1,h2 {
-    font-family: 'Quicksand', sans-serif;
+    font-family: 'Red Hat Display', sans-serif;;
     text-shadow: 1px 2px 4px #164f70;
     font-weight: bold;
 }
