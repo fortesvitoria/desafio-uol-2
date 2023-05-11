@@ -26,3 +26,23 @@
 .img-icone-footer:hover {
     fill: var(--laranja-escuro);
 }
+
+@media screen and (max-width: 1000px) {
+
+    .container-calculadora {
+       max-width: 75vw !important;
+    }
+
+ }
+
+ @media screen and (max-width: 400px) {
+
+    .container-footer {
+        flex-direction: column;
+    }
+
+    .footer-texto {
+        padding: 1em 0 1em 0;
+    }
+
+}
