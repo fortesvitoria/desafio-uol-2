@@ -11,9 +11,12 @@
     flex-direction: row;
 }
 
-
 .input-titulo {
     display: block;
+}
+
+.input {
+    margin-top: 0.5em;
 }
 
 .botao-cadastro {
@@ -26,26 +29,23 @@
 }
 
 .input-container--invalido .input {
-    border: 1px solid rgb(190, 24, 24);
-    background-color: lightcoral;
+    border: 2px solid var(--erro);
 }
 
 .input-container--invalido .input-label {
-    color: rgb(190, 24, 24);
+    color:var(--erro);
     font-weight: bold;
 }
 
 .input-mensagem-erro {
     display: none;
+    margin-bottom: 1em;
 }
 
 .input-container--invalido .input-mensagem-erro {
-    color: rgb(190, 24, 24);
+    color: var(--erro);
     display: block;
-    margin-top: 0.5rem;
-    padding-left: 0.5rem;
     font-size: small;
-    font-weight: bold;
 }
 
 @media screen and (max-width: 1000px) {

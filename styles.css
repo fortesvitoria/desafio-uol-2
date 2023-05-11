@@ -24,6 +24,7 @@
     --offwhite-fluido: #fdf8f76e;
     --preto: #000000;
     --grafite: #1B1A17;
+    --erro:rgb(202, 4, 4);
 }
 
 body {
@@ -55,10 +56,6 @@ a {
     color: var(--offwhite);
     background-color: var(--laranja-escuro);
 }
-
-label {
-    font-weight: bold;
- }
 
  form {
     padding: 2% 2% 2%;
