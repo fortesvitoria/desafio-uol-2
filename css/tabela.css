@@ -1,6 +1,6 @@
 .container-tabela {
     background-color: var(--offwhite-fluido);
-    max-width: 45vw !important;
+    max-width: 55vw !important;
     border-radius: 1em;
     display: flex;
     flex-direction: column;
@@ -23,4 +23,22 @@ th {
 
 td {
     background-color: var(--offwhite);
+}
+
+@media screen and (max-width: 1000px) {
+
+    .container-tabela {
+       max-width: 75vw !important;
+       margin-top: 2em;
+    padding: 0 0.5em 3em 0.5em ;
+    }
+
+ }
+
+ @media screen and (max-width: 400px) {
+
+   .container-tabela {
+      max-width: 85vw !important;
+   }
+
 }

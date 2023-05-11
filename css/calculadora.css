@@ -1,11 +1,10 @@
  .container-calculadora {
     background-color: var(--offwhite-fluido);
-    max-width: 45vw !important;
+    max-width: 55vw !important;
     border-radius: 1em;
     display: flex;
     flex-direction: column;
     text-align: center;
-
  }
 
  .form-calcula {
@@ -30,3 +29,19 @@
     font-weight: bold;
     text-align: center;
  }
+
+ @media screen and (max-width: 1000px) {
+
+    .container-calculadora {
+       max-width: 75vw !important;
+    }
+
+ }
+
+ @media screen and (max-width: 400px) {
+
+   .container-calculadora {
+      max-width: 85vw !important;
+   }
+
+}
