@@ -1,0 +1,11 @@
+.logo-navbar {
+    width: 20%;
+}
+
+.link_nav {
+    color: var(--turqueza) !important;
+}
+
+.link_nav:hover {
+    color: var(--turqueza-hover) !important;
+}

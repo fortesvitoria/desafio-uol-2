@@ -1,0 +1,32 @@
+/* Importanto estilos */
+/* @import url(css/principal.css);
+@import url(css/calculadora.css);
+@import url(css/cadastro.css);*/
+@import url(css/cabecalho.css); 
+
+/* Importando fontes google  */
+@import url('https://fonts.googleapis.com/css2?family=Wix+Madefor+Display:wght@400;500;600;700;800&display=swap');
+
+
+/* Criando variaveis uteis */
+:root {
+    --fonte: 'Wix Madefor Display', sans-serif;
+    --laranja: #FC5000;
+    --laranja-escuro: #B44A1F;
+    --turqueza: #009090;
+    --turqueza-hover: #035c5c;
+    --amarelo: #FF9D1E;
+    --rose: #FFCAB8;
+    --offwhite: #FDE3D9;
+    --preto: #000000;
+    --grafite: #1B1A17;
+
+
+
+}
+
+body {
+    font-family: var(--fonte);
+    font-size: 16px;
+    font-weight: 500;
+}
