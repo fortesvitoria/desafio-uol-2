@@ -1,7 +1,7 @@
  .container-calculadora {
-    background-color: var(--offwhite);
-    max-width: 80vw !important;
-    /* margin: 2em 0 2em 0; */
+    background-color: var(--offwhite-fluido);
+    max-width: 45vw !important;
+    border-radius: 1em;
     display: flex;
     flex-direction: column;
     text-align: center;

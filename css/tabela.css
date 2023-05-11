@@ -1,0 +1,26 @@
+.container-tabela {
+    background-color: var(--offwhite-fluido);
+    max-width: 45vw !important;
+    border-radius: 1em;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 2em;
+    padding: 0 5em 3em 5em;
+}
+
+table {
+    margin-top: 1em;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+
+th {
+    background-color: var(--laranja) !important;
+    color: var(--offwhite);
+}
+
+td {
+    background-color: var(--offwhite);
+}

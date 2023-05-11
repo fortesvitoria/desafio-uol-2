@@ -1,0 +1,28 @@
+.container-footer {
+    margin-top: 2em;
+    padding: 1em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-footer {
+    width: 130px;
+}
+
+.footer-texto {
+    align-self: center;
+    font-size: 14px;
+    color: var(--turqueza-hover);
+    margin: 0;
+}
+
+.img-icone-footer {
+    width: 32px;
+    margin: 0.1em;
+    fill: var(--laranja);
+}
+
+.img-icone-footer:hover {
+    fill: var(--laranja-escuro);
+}

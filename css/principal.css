@@ -14,37 +14,8 @@
     font-weight: bold;
  } */
 
-
-table{
-	width: 100%;
-    table-layout: fixed;
-
-}
-
-td, th {
-	padding: .7em !important;
-	border: 1px solid #ccc !important;
-	text-align: center !important;
-    font-weight: bold !important; 
-    background-color: rgba(73, 68, 68, 0.11);
-}
-
-th{
-	font-weight: bold !important;
-	background-color: #EEE !important;
-}
-
-footer {
-    text-align: center;
-    max-height: 100px;
-    position: relative;
-}
-
-.background-footer {
-    max-height: 150px;
-    width: 100%;
-
-}
+/* 
+} */
 
 
 .sobre {
