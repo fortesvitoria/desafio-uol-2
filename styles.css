@@ -24,6 +24,7 @@
     --offwhite-fluido: #fdf8f76e;
     --preto: #000000;
     --grafite: #1B1A17;
+    --marrom: #443027;
     --erro:rgb(202, 4, 4);
 }
 
@@ -31,6 +32,7 @@ body {
     font-family: var(--fonte);
     font-size: 16px;
     font-weight: 500;
+    color: var(--marrom);
     background-image: linear-gradient(to left, var(--turqueza) 10%, var(--turqueza-hover) 100%);
 }
 
